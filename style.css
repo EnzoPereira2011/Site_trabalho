@@ -41,6 +41,12 @@ body {
 
 }
 
+.container2 {
+    width: min(1500px, 92%);
+    margin: 0 auto;
+
+}
+
 .row {
     display: flex;
     align-items: center;
@@ -53,8 +59,8 @@ body {
     display: inline-block;
     font-weight: 800;
     text-decoration: none;
-    color: #13110f;
-    font-size: 1.5rem;
+    color: #000000;
+    font-size: 20px;
     padding: 1.5% 0;
 }
 
@@ -67,7 +73,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #1417c7;
+    background-color: #005be4;
 
 }
 
@@ -151,7 +157,7 @@ section h2 {
 .menu-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 2px;
+    gap: 8px;
     align-items: stretch;
     justify-content: center;
 }
@@ -364,4 +370,9 @@ footer a {
 
 .texto-preto {
     color: #303030;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
 }
